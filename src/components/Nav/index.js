@@ -22,7 +22,7 @@ function Nav(props) {
             {" "}
             👩🏻‍💻
           </span>{" "}
-          Portfolio
+          Allyssa Angell's Portfolio
         </a>
       </h2>
       <nav>

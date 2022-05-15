@@ -11,31 +11,103 @@ const PhotoList = ({ category }) => {
       category: "projects",
       description:
         "This app will give you movie recommendations to match the weather. What's better than watching a scary movie on a stormy night?",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/allyssaangell/forecast-films">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://allyssaangell.github.io/forecast-films/">
+            Deployed Application
+          </a>
+        </>
+      ),
     },
     {
       name: "Robot Gladiators",
       category: "projects",
-      description:
-        "This is a Javascript Robot Battle Game.",
+      description: "This is a Javascript Robot Battle Game.",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/allyssaangell/robot-gladiators">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://allyssaangell.github.io/robot-gladiators/">
+            Deployed Application
+          </a>
+        </>
+      ),
     },
     {
       name: "Run Buddy",
       category: "projects",
       description:
         "This is a website that mimicks a client's request to provide and gather potential customer information.",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/allyssaangell/run-buddy">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://allyssaangell.github.io/run-buddy/">
+            Deployed Application
+          </a>
+        </>
+      ),
     },
     {
       name: "Worker Bee",
       category: "projects",
       description:
         "This group project that aims to be a simplified and easy to use time entry application.",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/allyssaangell/Worker-Bee">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://worker-bee-1.herokuapp.com/">Deployed Application</a>
+        </>
+      ),
+    },
+    {
+      name: "Budget Tracker",
+      category: "projects",
+      description:
+        "This budgetting project is able to keep track of withdrawals and deposits added to the applicatino offline, and when reconnecting it will track those amounts accurately.",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/allyssaangell/budget-tracker">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://pure-thicket-77987.herokuapp.com/">Deployed Application</a>
+        </>
+      ),
+    },
+    {
+      name: "Quick Coding Quiz",
+      category: "projects",
+      description:
+        "This quiz shows examples of JavaScript fundamentals, both in quiz content as well as how the application is made. It includes a countdown feature as well as a High Score page.",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/allyssaangell/quick-coding-quiz">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://allyssaangell.github.io/quick-coding-quiz/">Deployed Application</a>
+        </>
+      ),
     },
     {
       name: "Resume",
       category: "resume",
       description:
         "This group project that aims to be a simplified and easy to use time entry application.",
-    }
+      links: <>🔗</>,
+    },
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);

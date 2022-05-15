@@ -9,7 +9,7 @@ function App() {
   const [categories] = useState([
     {
       name: "projects",
-      description: "Click on each project to see more.",
+      description: "Click on each project to see more information, including links!",
     },
     {
       name: "resume",
