@@ -9,7 +9,8 @@ function App() {
   const [categories] = useState([
     {
       name: "projects",
-      description: "Click on each project to see more information, including links!",
+      description:
+        "Click on each project to see more information, including links!",
     },
     {
       name: "resume",
@@ -109,7 +110,9 @@ function App() {
               </div>
             </div>
           </section>
-          <a href="/AngellResume.jpg" download>💾 Save Resume</a>
+          <a href="/AngellResume.jpg" download>
+            💾 Save Resume
+          </a>
         </>
       ),
     },
@@ -136,6 +139,22 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <footer className="flex-row px-1">
+        <h2>Contact Me</h2>
+        <ul className="flex-row">
+          <li className="mx-2">
+            E: <a href="mailto:a.angell2@yahoo.com">a.angell2@yahoo.com</a>
+          </li>
+          <li className={`mx-2 ${contactSelected && "navActive"}`}>
+            <a href="https://github.com/allyssaangell">Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/allyssa-angell-1b6990141/">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
