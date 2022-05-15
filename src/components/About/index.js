@@ -16,10 +16,10 @@ function About() {
           Hi! My name is Allyssa Angell. I'm currently enrolled in a Coding
           Bootcamp through the University of Minnesota. This program is geared
           toward a career as a full stack web developer. Currently, I'm a Custom
-          Solutions Team Lead at Procore Technologies, a construction
-          management software as a service company. Prior to joining Procore in
-          2017, I was an LADC, licensed by the Minnesota Board of Behavioral
-          Health and Therapy.
+          Solutions Team Lead at Procore Technologies, a construction management
+          software as a service company. Prior to joining Procore in 2017, I was
+          an LADC, licensed by the Minnesota Board of Behavioral Health and
+          Therapy.
         </p>
       </div>
     </section>
