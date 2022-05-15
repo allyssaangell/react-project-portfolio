@@ -11,6 +11,11 @@ function App() {
       name: "projects",
       description:
         "Click on each project to see more.",
+    },
+    {
+      name: "commercial",
+      description:
+        "Click on each project to see more.",
     }
   ]);
 

@@ -7,14 +7,14 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: "Grocery aisle",
+      name: "Forecast Films",
       category: "project",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
       name: "Grocery booth",
-      category: "commercial",
+      category: "project",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },

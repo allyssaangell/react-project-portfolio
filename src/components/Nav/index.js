@@ -20,9 +20,9 @@ function Nav(props) {
         <a data-testid="link" href="/">
           <span role="img" aria-label="camera">
             {" "}
-            📸
+            👩🏻‍💻
           </span>{" "}
-          Oh Snap!
+          Portfolio
         </a>
       </h2>
       <nav>
