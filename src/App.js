@@ -109,6 +109,7 @@ function App() {
               </div>
             </div>
           </section>
+          <a href="/AngellResume.jpg" download>💾 Save Resume</a>
         </>
       ),
     },

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "../Modal";
 
+
 const PhotoList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
@@ -105,8 +106,8 @@ const PhotoList = ({ category }) => {
       name: "Resume",
       category: "resume",
       description:
-        "This group project that aims to be a simplified and easy to use time entry application.",
-      links: <>🔗</>,
+        "",
+      links: <><a href="/AngellResume.jpg" download>💾 Save Resume</a></>,
     },
   ]);
 
