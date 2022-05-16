@@ -11,7 +11,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ```
 
 ## Link to Deployed Application
-(placeholder - not currently deployed)
+https://allyssaangell.github.io/react-project-portfolio/
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
