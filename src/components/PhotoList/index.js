@@ -58,17 +58,17 @@ const PhotoList = ({ category }) => {
       ),
     },
     {
-      name: "Worker Bee",
+      name: "Perspective News",
       category: "projects",
       description:
-        "This group project that aims to be a simplified and easy to use time entry application.",
+        "This group project searches different sources of news for users to compare. The goal is for users to be able to gain a more well rounded view of a topic, by seeing many different sources and perspectives.",
       links: (
         <>
           🔗{" "}
-          <a href="https://github.com/allyssaangell/Worker-Bee">
+          <a href="https://github.com/ItzGuled/perspective-news">
             GitHub Repository
           </a>{" "}
-          <a href="https://worker-bee-1.herokuapp.com/">Deployed Application</a>
+          <a href="https://perspective-news.herokuapp.com/">Deployed Application</a>
         </>
       ),
     },
@@ -99,21 +99,6 @@ const PhotoList = ({ category }) => {
             GitHub Repository
           </a>{" "}
           <a href="https://allyssaangell.github.io/quick-coding-quiz/">Deployed Application</a>
-        </>
-      ),
-    },
-    {
-      name: "Perspective News",
-      category: "projects",
-      description:
-        "This group project searches different sources of news for users to compare. The goal is for users to be able to gain a more well rounded view of a topic, by seeing many different sources and perspectives.",
-      links: (
-        <>
-          🔗{" "}
-          <a href="https://github.com/ItzGuled/perspective-news">
-            GitHub Repository
-          </a>{" "}
-          <a href="https://perspective-news.herokuapp.com/">Deployed Application</a>
         </>
       ),
     },
