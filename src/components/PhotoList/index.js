@@ -103,6 +103,21 @@ const PhotoList = ({ category }) => {
       ),
     },
     {
+      name: "Perspective News",
+      category: "projects",
+      description:
+        "This group project searches different sources of news for users to compare. The goal is for users to be able to gain a more well rounded view of a topic, by seeing many different sources and perspectives.",
+      links: (
+        <>
+          🔗{" "}
+          <a href="https://github.com/ItzGuled/perspective-news">
+            GitHub Repository
+          </a>{" "}
+          <a href="https://perspective-news.herokuapp.com/">Deployed Application</a>
+        </>
+      ),
+    },
+    {
       name: "Resume",
       category: "resume",
       description:
