@@ -61,7 +61,7 @@ const PhotoList = ({ category }) => {
       name: "Perspective News",
       category: "projects",
       description:
-        "This group project searches different sources of news for users to compare. The goal is for users to be able to gain a more well rounded view of a topic, by seeing many different sources and perspectives.",
+        "This group project searches different sources of news for users to compare and contrast. The goal is for users to be able to gain a more well rounded view of a topic, by seeing many different sources and perspectives.",
       links: (
         <>
           🔗{" "}
@@ -76,7 +76,7 @@ const PhotoList = ({ category }) => {
       name: "Budget Tracker",
       category: "projects",
       description:
-        "This budgetting project is able to keep track of withdrawals and deposits added to the applicatino offline, and when reconnecting it will track those amounts accurately.",
+        "This budgeting project is able to keep track of withdrawals and deposits added to the application offline, and when reconnecting, it will track those amounts accurately.",
       links: (
         <>
           🔗{" "}
